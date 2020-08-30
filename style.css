@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+.all-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(1, 1, 1, 0.8),rgba(0, 0, 0, 0.6)),url("background-image.jfif");
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.all-container .header{
+    background-color: rgba(191, 207, 161, 0.144);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.line{
+    background-color: white;
+    height: 2px;
+}
+
+.all-container .body > h2{
+    font-size: 50px;
+}
+
+.header a{
+    text-decoration: none;
+    margin: 10px 5px;
+    color: whitesmoke;
+    padding: 5px 20px;
+    transition: 0.3s ease;
+}
+
+.body{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.all-container .footer{
+    background-color: rgba(191, 207, 161, 0.144);
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.border{
+    width: 300px;
+    background-color: rgba(95, 87, 74, 0.5);
+    padding: 10px 10px;
+    border-radius: 7%;
+}
+
+.profile-layout{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 7%;
+    padding: 10px 10px;
+}
+
+.profile-picture{
+    padding: 10px;
+}
+
+.profile-text{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    padding: 10px 10px;
+}
+
+img{
+    height: 200px;
+    border-radius: 7%;
+}
+
+.link{
+    padding: 10px;
+    width: auto;
+}
+
+.link a{
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 2px 5px;
+    transition: 0.3s ease;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    color :black;
+}
